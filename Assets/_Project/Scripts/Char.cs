@@ -27,9 +27,9 @@ namespace _Project.Scripts
         {
             _image.color = charState switch
             {
-                CharState.Correct => new Color(0.3f, 1f, 0.3f),
-                CharState.Incorrect => new Color(1f, 0.2f, 0.2f),
-                CharState.Free => new Color(1f, 1f, 1f),
+                CharState.Correct => new Color(0.33f, 1f, 0.36f),
+                CharState.Incorrect => new Color(1f, 0.3f, 0.25f),
+                CharState.Free => new Color(0.7764707f, 0.8313726f, 0.8901961f),
                 _ => throw new ArgumentOutOfRangeException(nameof(charState), charState, null)
             };
         }

@@ -110,7 +110,6 @@ namespace _Project.Scripts
             _attempsUsed = 0;
             _tipButton.interactable = true;
             _tipParent.SetActive(false);
-            
         }
 
         public void Exit()

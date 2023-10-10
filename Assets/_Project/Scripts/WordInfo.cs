@@ -1,4 +1,5 @@
 ﻿using System;
+using NaughtyAttributes;
 
 namespace _Project.Scripts
 {
@@ -6,6 +7,6 @@ namespace _Project.Scripts
     public struct WordInfo
     {
         public string Word;
-        public string Description;
+        [ResizableTextArea, AllowNesting] public string Description;
     }
 }
